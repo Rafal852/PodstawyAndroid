@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="#869986">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:backgroundTint="#114E11"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Gatunki" />
+
+            <Button
+                android:id="@+id/button2"
+                android:backgroundTint="#114E11"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ciekawosktki" />
+
+            <TextView
+                android:id="@+id/txtView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:justificationMode="inter_word"
+                android:text="@string/opis1"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txtView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:justificationMode="inter_word"
+                android:text="@string/negatywny_wizerunek"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txtView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:justificationMode="inter_word"
+                android:text="@string/kultura"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txtView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:justificationMode="inter_word"
+                android:text="@string/biologia"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
