@@ -1,1 +1,1 @@
-List for my uniwersity assigment
+List for my university assigment
